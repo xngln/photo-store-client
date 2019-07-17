@@ -1,0 +1,43 @@
+.logo {
+	float: left;
+	font-size: 1.6em;
+	padding-left: 50px;
+
+	&:hover {
+		font-style: oblique;
+		letter-spacing: 1.3px;
+		transition-duration: 500ms
+	}
+}
+
+.style-header{
+	position: fixed;
+	top: 0;
+	padding-top: 37px;
+	z-index: 8;
+	background-color: white;
+	color: rgb(24, 24, 24);
+	width: 100%;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+
+.menu {
+	padding-right: 35px;
+	float: right;
+}
+
+.item {
+	margin-left: 10px;
+	margin-right: 10px;
+
+	&:hover {
+		font-style: oblique;
+		letter-spacing: 1.3px;
+		transition: 350ms ease-in-out
+	}
+}
+
+.menu-item-wrapper {
+	display: inline-block;
+}

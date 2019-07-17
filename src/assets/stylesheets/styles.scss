@@ -1,0 +1,28 @@
+@media(max-width: 1200px) {
+  .about-content {
+	margin-right: 20%;
+	margin-left: 20%;
+}
+	.squareImage {
+		width: 60% ;
+	}
+	
+	.landscapeImage {
+		width: 85% ;
+	}
+}
+
+@media (max-width: 600px) { 
+  	.about-content {
+		margin-right: 5%;
+		margin-left: 5%;
+	}	
+	
+	.squareImage {
+		width: 80% ;
+	}
+	
+	.landscapeImage {
+		width: 90% ;
+	}
+}
