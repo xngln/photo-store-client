@@ -22,7 +22,7 @@ class Header extends React.Component {
             <a className="item" href="/nature">nature</a>
           </div>
           <div className="menu-item-wrapper" style={{ width: "81px" }}>
-            <a className="item" href="/presets">presets</a>
+            <a className="item" href="/shop">shop</a>
           </div>
           <div className="menu-item-wrapper" style={{ width: "71px" }}>
             <a className="item" href="/about">about</a>
