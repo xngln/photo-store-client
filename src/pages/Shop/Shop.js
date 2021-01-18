@@ -1,5 +1,5 @@
 import React from "react"
-import { ApolloClient, ApolloProvider, InMemoryCache, withApollo, gql } from '@apollo/client';
+import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
 import { loadStripe } from '@stripe/stripe-js';
 
 import "./shop.scss"
@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 
 let server_address;
-if (process.env.APP_ENV == "PROD") {
+if (process.env.APP_ENV === "PROD") {
   server_address = "https://protected-bastion-36826.herokuapp.com/query"
 } else {
   server_address = "http://localhost:8080/query"
