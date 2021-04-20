@@ -5,6 +5,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import "./shop.scss"
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
+import ShopItem from "../../components/ShopItem/ShopItem"
 
 let server_address;
 if (process.env.APP_ENV !== "PROD") {
@@ -91,7 +92,7 @@ class Shop extends React.Component {
 
                   <div className="buy-btn" 
                     onClick={(event) => this.handleClick(photo, event)}>
-                        buy fullsize digital file - ${photo.price}
+                        buy this Lightroom Preset - ${photo.price}
                   </div>
                 </React.Fragment>
               )
