@@ -6,7 +6,7 @@
     "@apollo/client": "^3.3.7",
     "@stripe/stripe-js": "^1.11.0",
     "graphql": "^15.4.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-before-after-slider": "^1.0.4",
     "react-dom": "^16.8.6",
